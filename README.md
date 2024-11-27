@@ -24,7 +24,7 @@ We construct two Datastreams for our experiments and Case Study:
 - [Subset of ImageNet](https://www.image-net.org/) - ImageNet is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the hierarchy is depicted by hundreds and thousands of images.  Link to Paper [ImageNet](https://www.image-net.org/static_files/papers/imagenet_cvpr09.pdf)
     - To create the subset:
         - Obtain permission for research use on the ImageNet Website
-        - then used [ImageNet-Dataset-Downloader](https://github.com/mf1024/ImageNet-Datasets-Downloader) to construct a datset consisting of:
+        - Use [ImageNet-Dataset-Downloader](https://github.com/mf1024/ImageNet-Datasets-Downloader) to construct a dataset consisting of:
             - red foxes
             - gray foxes
             - arctic foxes
@@ -41,8 +41,8 @@ tar -xf data/ninco.tar.gz -C data/ninco_data
 ```
 
 # Step 3a: Experiments
-To see the results of the experiments, one can either run the experiment notebooks (assuming one has acquired the data), or can directly load the csv files which contain the results over 50 runs used in the paper. 
-The scripts contained in the notebooks construct the drift from the datasets obtained above. 
+To see the results of the experiments, one can either run the experiment notebooks (assuming one has acquired the data) or directly load the csv files which contain the results over 50 runs used in the paper. 
+The scripts in the notebooks construct the streams and drifts using the datasets obtained above. 
 
 # Step 3b: Case Study 
 To see examples of the produced explanantions, please follow along in the case study notebook.
