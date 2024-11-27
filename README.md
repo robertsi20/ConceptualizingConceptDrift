@@ -14,7 +14,10 @@ In this experiment, we use CRAFT in combination with [Pytorch](https://pytorch.o
 using **Python 3.10** and install the repository as follows:
 ```bash
 git clone https://github.com/robertsi20/ConceptualizingConceptDrift.git
-pip install fastai datasets jupyter xplique timm
+pip install datasets
+pip install jupyter
+pip install xplique
+pip install timm
 ```
 
 
