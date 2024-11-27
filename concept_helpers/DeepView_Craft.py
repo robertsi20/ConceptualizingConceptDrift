@@ -7,8 +7,8 @@ from xplique.concepts.craft_torch import _batch_inference
 from typing import Callable, Optional, Tuple
 from math import ceil
 from matplotlib import gridspec
-from .disc_nmf import RSNMF
-from .shared_disc_nmf import RSSNMF
+# from .disc_nmf import RSNMF
+# from .shared_disc_nmf import RSSNMF
 
 import torch
 from torch import nn
