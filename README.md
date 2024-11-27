@@ -8,7 +8,7 @@ This repository contains code for the paper:
 This experiment builds mainly on the following code:
 - [CRAFT in Xplique]((https://github.com/deel-ai/xplique)) - A framework for automatically extracting Concept Activation Vectors which explain deep
   neural networks. Link to Paper [CRAFT](https://arxiv.org/abs/2211.10154),
-- [Model-based Drift Explanations]((https://github.com/FabianHinder/DRAGON)) - Repo for example Model-based explanations. Link to Papers [Model-Based Drift Explanations] (https://www.sciencedirect.com/science/article/pii/S0925231223007634)
+- [Model-based Drift Explanations]((https://github.com/FabianHinder/DRAGON)) - Repo for example Model-based explanations. Link to Paper [Model-Based] (https://www.sciencedirect.com/science/article/pii/S0925231223007634)
   - In this experiment we use CRAFT in combination with [Pytorch](https://pytorch.org/).\
  
 We suggest to setup a local [Conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)-environment
