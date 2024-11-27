@@ -11,8 +11,7 @@ This experiment builds mainly on the following code:
 - [Model-based Drift Explanations]((https://github.com/FabianHinder/DRAGON)) - Repo for example Model-based explanations. Link to Paper [Model-based Drift Explanantions](https://www.sciencedirect.com/science/article/pii/S0925231223007634)
 
 
-- In this experiment we use CRAFT in combination with [Pytorch](https://pytorch.org/).\ 
-We suggest to setup a local [Conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)-environment
+- In this experiment we use CRAFT in combination with [Pytorch](https://pytorch.org/).We suggest to setup a local [Conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)-environment
 using **Python 3.10** and install the repository as follows:
 
 ```bash
