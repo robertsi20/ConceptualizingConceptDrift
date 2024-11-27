@@ -17,14 +17,9 @@ using **Python 3.10** and install the repository as follows:
 
 ```bash
 git clone https://github.com/robertsi20/ConceptualizingConceptDrift.git
-pip install -r requirements.txt
+pip install fastai datasets jupyter xplique timm
 ```
 
-
-
-
-# Environment Setup
-pip install fastai datasets jupyter xplique timm
 
 # Data acquisition
 We construct two Datastreams for our experiments and Case Study:
@@ -40,7 +35,6 @@ We construct two Datastreams for our experiments and Case Study:
             - red wolves
             - white wolves
 
-
 To proceed with the NINCO datset:
 ```bash
 mkdir data/
@@ -50,7 +44,8 @@ tar -xf data/ninco.tar.gz -C data/ninco_data
 ```
 
 # Experiments
-Experiment Results for Streams D1 and D2
+To see the results of the experiments, one can either run the experiment notebooks (assuming one has acquired the data), or can directly load the csv files which contain the results over 50 runs used in the paper. 
 
 # Case Study 
+To see examples of the produced explanantions, please follow along in the case study notebook.
 
