@@ -27,10 +27,27 @@ pip install -r requirements.txt
 pip install fastai datasets jupyter xplique timm
 
 # Data acquisition
+We construct two Datastreams for our experiments and Case Study:
+- [NINCO](https://github.com/j-cb/NINCO) - The NINCO (No ImageNet Class Objects) dataset consists of 64 OOD classes with a total of 5879 samples. The OOD classes were selected to have no categorical overlap with any classes of ImageNet-1K.  Link to Paper [NINCO]((https://arxiv.org/abs/2306.00826))
+- [Subset of ImageNet](https://www.image-net.org/) - ImageNet is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the hierarchy is depicted by hundreds and thousands of images.  Link to Paper [ImageNet](https://www.image-net.org/static_files/papers/imagenet_cvpr09.pdf)
+    - To create the subset:
+        - Obtain permission for research use on the ImageNet Website
+        - then used [ImageNet-Dataset-Downloader](https://github.com/mf1024/ImageNet-Datasets-Downloader) to construct a datset consisting of:
+            - red foxes
+            - gray foxes
+            - arctic foxes
+            - timber wolves
+            - red wolves
+            - white wolves
+
+
+To proceed with the NINCO datset:
+```bash
 mkdir data/
 wget -O data/ninco.tar.gz https://zenodo.org/record/8013288/files/NINCO_all.tar.gz?download=1
 mkdir data/ninco_data
 tar -xf data/ninco.tar.gz -C data/ninco_data
+```
 
 # Experiments
 Experiment Results for Streams D1 and D2
