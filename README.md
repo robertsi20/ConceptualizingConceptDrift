@@ -3,7 +3,7 @@ This repository contains code for the paper:
 **Conceptualizing Concept Drift, Isaac Roberts, Fabian Hinder Valerie Vaquet, Alexander Schulz, Barbara Hammer, submitted to European Symposium on Artificial Neural Networks(ESANN) 2025
 **
 
-## Step 1: Technical prerequisites
+# Step 1: Technical prerequisites
 
 This experiment builds mainly on the following code:
 - [CRAFT in Xplique]((https://github.com/deel-ai/xplique)) - A framework for automatically extracting Concept Activation Vectors which explain deep
