@@ -48,7 +48,7 @@ To see the results of the experiments, one can either run the experiment noteboo
 The scripts in the notebooks construct the streams and drifts using the datasets obtained above. 
 
 We do note that there are more models here than presented in the paper. We ultimately chose "one_local_l_probs" as Model h \tilde, because it performed the best while maintaining a high degree of interpretability. 
-The other models are produced by counting more concepts and could be used in certain settings.
+The other models are produced by counting more concepts and could potentially be used in certain settings.
 
 # Step 3b: Case Study 
 To see examples of the produced explanantions, please follow along in the case study notebook.
